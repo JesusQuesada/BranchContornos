@@ -10,18 +10,18 @@ public class ClassContornos {
         switch (opcion) {
             case 1: 
                 float lado = Float.parseFloat(JOptionPane.showInputDialog("Introducir lado "));
-                    System.out.println(lado*lado);
+                    //System.out.println(lado*lado);
                 break;
             case 2: 
                 float base = Float.parseFloat(JOptionPane.showInputDialog("Introducir base "));
                 float altura = Integer.parseInt(JOptionPane.showInputDialog("Introducir altura "));
-                    System.out.println(base*altura/2);
+                    //System.out.println(base*altura/2);
                 break;
             case 3: 
                 float radio = Float.parseFloat(JOptionPane.showInputDialog("Introducir radio "));
-                    System.out.println(Math.PI*Math.pow(radio, 2));
+                    //System.out.println(Math.PI*Math.pow(radio, 2));
                 break;
-            default: System.out.println("Opción incorrecta ");
+            default: //System.out.println("Opción incorrecta ");
         }
     }
 }
